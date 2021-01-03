@@ -9,13 +9,11 @@ body {
 /*applied style to form group*/
 #form-group {
     font-size: 40px;
-    font-
 }
 /*applied style to form group*/
-.form-group {
-    font-size: 25px;
-}
+
 /*applied style to card-body class*/
-.card-body{
+.card-body {
     background:rgba(3, 48, 4, 0.4)
 }
+
