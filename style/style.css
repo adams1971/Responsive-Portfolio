@@ -10,13 +10,13 @@ body {
 #form-group {
     font-size: 40px;
 }
-/*applied style to form group*/
 
 /*applied style to card-body class*/
 .card-body {
     background:rgba(3, 48, 4, 0.4)
 }
 
+/*added padding*/
 .img-thumbnail{
     padding: 0%;
     border: 10px solid rgba(3, 48, 4, 0.4);
