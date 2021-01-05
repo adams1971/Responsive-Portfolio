@@ -4,22 +4,22 @@ body {
 }
 
 .row {
-    color: rgb(2, 1, 1)
+    height: 250px;
+    color: black;
 }
+
 /*applied style to form group*/
 #form-group {
     font-size: 40px;
 }
 
-/*applied style to card-body class*/
-.card-body {
-    background:rgba(3, 48, 4, 0.4)
-}
-
+/* removed card-body */
 /*added padding*/
-.img-thumbnail{
+.img-thumbnail {
     padding: 0%;
     border: 10px solid rgba(3, 48, 4, 0.4);
     margin: left 10px;
-}
+
+
+
 
