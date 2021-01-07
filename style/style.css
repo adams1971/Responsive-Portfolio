@@ -3,5 +3,9 @@ body {
     background:rgba(3, 48, 4, 0.4)
 }
 
-
+footer {
+    text-align: center;
+    word-spacing: 60px;
+    float: bottom;
+}
 
