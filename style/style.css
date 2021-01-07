@@ -11,3 +11,9 @@ footer {
 #card {
     max-width: 1080px
 }
+
+/* styled padding adn border*/
+.img-thumbnail {
+    padding: 0rem;
+    border: 0px rgba(3, 48, 4, 0.4);
+}
