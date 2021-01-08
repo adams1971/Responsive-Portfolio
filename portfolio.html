@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portfolio</title>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+</script>
 <!--added css links and navbar-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel= "stylesheet" href= "./style/style.css">
@@ -12,6 +16,7 @@
 <!--linked contact portfolio index pages-->
   <body>
     <!-- justified navbar content to end-->
+    <!--fixed active current status-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#">Adam Stevenson</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,12 +24,12 @@
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">About 
-            <span class="sr-only">(current)</span></a>
-            </li>
             <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio </a>
+              <a class="nav-link" href="index.html">About 
+            </a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="contact.html">Contact</a>
@@ -35,34 +40,38 @@
       <br>
       <!--added new rows & col w/ img-->
       <!--added a contianter to rows / col-->
+      <!--updated text content-->
     <div class="container"> 
       <div class="row">
         <div class="col-lg-3">
-                <img class="img img-thumbnail" src="https://previews.dropbox.com/p/thumb/ABA7GMW9Xe7lKFaJuFc7avFTNUC66N2SZSZ4b7SDv37rhLwVc042q5IZCVEpcqru-CbCWL0FAiN858Pd8nBa7XV6M1fC0sw7Z1zPdN6BYaitYQDObW17TbX1AvoY-TEUehh7SciH4B7_hOQwuJJNXCNRqaDItfn05-gxJjvfKfmQf1-qErgt6IcJG1NIRvB_JPPrMtXXr2JwnP0xJu3m2QClbJlg_I1uLcjH1b3-pkucKjm8XBThX4TujIs-w7vFcO8J39HwaCliHtGUe07IHLmF1NxULzM7LYGE4UmqM8x3YZMgoGyXb8gK9v5gZpg23lSX6PipL6xRu4WlsYvYMik0byPzM4dBgZyzmqjI0UVvow/p.jpeg?fv_content=true&size_mode=5">
+                <img class="img img-thumbnail" src="https://previews.dropbox.com/p/thumb/ABA7GMW9Xe7lKFaJuFc7avFTNUC66N2SZSZ4b7SDv37rhLwVc042q5IZCVEpcqru-CbCWL0FAiN858Pd8nBa7XV6M1fC0sw7Z1zPdN6BYaitYQDObW17TbX1AvoY-TEUehh7SciH4B7_hOQwuJJNXCNRqaDItfn05-gxJjvfKfmQf1-qErgt6IcJG1NIRvB_JPPrMtXXr2JwnP0xJu3m2QClbJlg_I1uLcjH1b3-pkucKjm8XBThX4TujIs-w7vFcO8J39HwaCliHtGUe07IHLmF1NxULzM7LYGE4UmqM8x3YZMgoGyXb8gK9v5gZpg23lSX6PipL6xRu4WlsYvYMik0byPzM4dBgZyzmqjI0UVvow/p.jpeg?fv_content=true&size_mode=5" alt="Pictured: Culatello Cascade Ham"/>
         </div>
         <div class="col-lg-9">
-               <h3>Charcuterie</h3>
-               <p>Lörem ipsum dolor sit amet, dedeeshka duu. Leebur deroor iehroom, Börk Börk Börk! Vender gests kämmen vewänthärdis wehrdsen onderpasje. Nawei raitinen de wehbsyte. Vender gests kämmen vewänthärdis wehrdsen onderpasje. Vender gests kämmen vewänthärdis wehrdsen onderpasje. Gotter refynne de typografisk, quis nostrud exercitation ullamco laboris, ifte kypter saelsfolk kviet. Lörem ipsum dolor sit amet, dedeeshka duu. Leebur deroor iehroom, Börk Börk Börk! Vender gests kämmen vewänthärdis wehrdsen onderpasje. Nawei raitinen de wehbsyte. Vender gests kämmen vewänthärdis wehrdsen onderpasje. Vender gests kämmen vewänthärdis wehrdsen onderpasje. Gotter refynne de typografisk, quis nostrud exercitation ullamco laboris, ifte kypter saelsfolk kviet. </p> 
+               <h3>Cascade Dry Cured Meats</h3>
+               <p>Cascade dry cured meats are my personal meat curing project. Through the years, I have developed a hankering to create America cured meats, also known in French as Charcuterie or in Italy, Salumi. These techniques are very similar to each other with various differences based on traditions and demographics. The name Cascade Dry Cured Meats refers to several aspects of my process. I only source pigs raised in the PNW or "Cascadia" region. I have forged relationships with local farmers who are committed to the sustainable growth and care of the animals and the land they live on. 
+                Here in the PNW, our western region is surrounded by the Cascade Mountains to the east and Olympic Mountains to the west, cradling the Puget Sound. It is my belief the weather conditions of this region provide a unique quality that can support and enhance the production of cured meats.A few of my favorites and focuses are Culatello, Cascade Ham and Fennel Pollen DC Sausage- Culatello being the king of Italian Salumi is made from the hunch of a pig's hind leg, this specific muscle is covered with a snow white cap of fat on one side covering deep rouge sweet meat. Each piece weighs about 3 pounds when fully cured and dried. </p> 
         </div>
       </div>
       <br>
       <div class="row">
           <div class="col-lg-3">
-                  <img class="img img-thumbnail" src="https://previews.dropbox.com/p/thumb/ABBnpONUNMIiYMitNF9ApJqovdDLFNSN0gXy1YA2UN7o4Jo8jFG50fifldV5KX7c-vt1NwaGkaJrOBdTUHwrVgN2AC_wEHJBL6E3_DXM09rIjcv83A2hXIankEFWQL38ZKqPS4faqzd-tO8W_w4urrojlbLRLZ2omI2IIjexcPV5whNjK7pSvSllI0IzI0nuhmTMMu4-Tg_nwH_1wVGLZgcGLoOuAgVcFazztbcjKVs7Dq3rV9ZcxYtzghm_qUMQrMk8CyVbnbFQIEyXrO4JOfgiUTzGEak0pjpQ6XGaCWPK2IFy0Sp-gZLyIMlxqQYlgp9ieZXBcT5pHH_6wCPppq2BX6ldwr02GE_pvWX04gsIfQ-i90vEQbzGiKSM7X0qncKXYhpqGNkNr3SRWAUYZMDsMcOo_IZGVXkk7k3q12BZZIUaEyC4ZiLXWOJGskyDs-Y/p.jpeg?fv_content=true&size_mode=5">
+                  <img class="img img-thumbnail" src="https://previews.dropbox.com/p/thumb/ABBnpONUNMIiYMitNF9ApJqovdDLFNSN0gXy1YA2UN7o4Jo8jFG50fifldV5KX7c-vt1NwaGkaJrOBdTUHwrVgN2AC_wEHJBL6E3_DXM09rIjcv83A2hXIankEFWQL38ZKqPS4faqzd-tO8W_w4urrojlbLRLZ2omI2IIjexcPV5whNjK7pSvSllI0IzI0nuhmTMMu4-Tg_nwH_1wVGLZgcGLoOuAgVcFazztbcjKVs7Dq3rV9ZcxYtzghm_qUMQrMk8CyVbnbFQIEyXrO4JOfgiUTzGEak0pjpQ6XGaCWPK2IFy0Sp-gZLyIMlxqQYlgp9ieZXBcT5pHH_6wCPppq2BX6ldwr02GE_pvWX04gsIfQ-i90vEQbzGiKSM7X0qncKXYhpqGNkNr3SRWAUYZMDsMcOo_IZGVXkk7k3q12BZZIUaEyC4ZiLXWOJGskyDs-Y/p.jpeg?fv_content=true&size_mode=5" 
+                  alt="One of our bee hives with honey ready for harvest"/>
           </div>
           <div class="col-lg-9">
                 <h3>Cedarbrook Lodge Apiary</h3>
-                <p>Lörem ipsum dolor sit amet, dedeeshka duu. Leebur deroor iehroom, Börk Börk Börk! Vender gests kämmen vewänthärdis wehrdsen onderpasje. Nawei raitinen de wehbsyte. Vender gests kämmen vewänthärdis wehrdsen onderpasje. Vender gests kämmen vewänthärdis wehrdsen onderpasje. Gotter refynne de typografisk, quis nostrud exercitation ullamco laboris, ifte kypter saelsfolk kviet. Lörem ipsum dolor sit amet, dedeeshka duu. Leebur deroor iehroom, Börk Börk Börk! Vender gests kämmen vewänthärdis wehrdsen onderpasje. Nawei raitinen de wehbsyte. Vender gests kämmen vewänthärdis wehrdsen onderpasje. Vender gests kämmen vewänthärdis wehrdsen onderpasje. Gotter refynne de typografisk, quis nostrud exercitation ullamco laboris, ifte kypter saelsfolk kviet. </p> 
+                <p>Honey Bees- the importance of honey bees in our environment is so strong. Bees are responsible for pollination- the process that helps plants grow thus helping to give us life. For this simple reason, I have chosen to help protect and contribute to the honey bee population. Honey bees are being threatened and so it's important for us to help them survive. I manage two separate hives containing over one-hundred thousand bees each. On a warm summer day- the ski is filled with the hard-working troopers searching for the sweet nectar to bring back the hive to store as food and make into honey. The process is a miracle and the bees never stop working and reproducing.</p> 
           </div>
       </div>
       <br>
       <div class="row">
           <div class="col-lg-3">
-                <img class="img img-thumbnail" src="https://previews.dropbox.com/p/thumb/ABB8LlSM6wdsVapQYUMmhKmthKoiDXacFtzIbHe0mA0A8nOEaT-sf_qiMLz1atcDIqcrYCOvG65U3nJnMz0-5-uluWUTvSlc5zTkimufuzrn1-_7qlgmvV5XJvr3T8h7YvIqAczb2i9YPRZ3-7h3bUxz3abpXIUAjG3tgZXEbNBtB9r6P9W_IADFxbW2CdNGQPiQ_8S2Ggz8QkbjFy5ssa1_yxynwF87tUZH_gU3RhZHFdpeV-mvjPeQaZVye86ZIhWkRvPZivdFCChkYgI-TtIZfkXtHGTvMkhyv6cVw8yPz86jTdYqHV9W5LRO4mW2KN8BX6KrNzaDGsMFjxEqxXKZNtmeApwkEz_mdtuWNqoklA/p.jpeg?fv_content=true&size_mode=5">
+                <img class="img img-thumbnail" src="https://previews.dropbox.com/p/thumb/ABB8LlSM6wdsVapQYUMmhKmthKoiDXacFtzIbHe0mA0A8nOEaT-sf_qiMLz1atcDIqcrYCOvG65U3nJnMz0-5-uluWUTvSlc5zTkimufuzrn1-_7qlgmvV5XJvr3T8h7YvIqAczb2i9YPRZ3-7h3bUxz3abpXIUAjG3tgZXEbNBtB9r6P9W_IADFxbW2CdNGQPiQ_8S2Ggz8QkbjFy5ssa1_yxynwF87tUZH_gU3RhZHFdpeV-mvjPeQaZVye86ZIhWkRvPZivdFCChkYgI-TtIZfkXtHGTvMkhyv6cVw8yPz86jTdYqHV9W5LRO4mW2KN8BX6KrNzaDGsMFjxEqxXKZNtmeApwkEz_mdtuWNqoklA/p.jpeg?fv_content=true&size_mode=5"
+                alt="Out to pasture, Grass Fed Grass Finished Cattle"/>
         </div>
           <div class="col-lg-9">
                <h3>The Gleason Ranch, Brady Washington</h3>
-               <p>Lörem ipsum dolor sit amet, dedeeshka duu. Leebur deroor iehroom, Börk Börk Börk! Vender gests kämmen vewänthärdis wehrdsen onderpasje. Nawei raitinen de wehbsyte. Vender gests kämmen vewänthärdis wehrdsen onderpasje. Vender gests kämmen vewänthärdis wehrdsen onderpasje. Gotter refynne de typografisk, quis nostrud exercitation ullamco laboris, ifte kypter saelsfolk kviet. Lörem ipsum dolor sit amet, dedeeshka duu. Leebur deroor iehroom, Börk Börk Börk! Vender gests kämmen vewänthärdis wehrdsen onderpasje. Nawei raitinen de wehbsyte. Vender gests kämmen vewänthärdis wehrdsen onderpasje. Vender gests kämmen vewänthärdis wehrdsen onderpasje. Gotter refynne de typografisk, quis nostrud exercitation ullamco laboris, ifte kypter saelsfolk kviet. </p> 
+               <p>Working closely with local ranches- here I am visiting with Rancher Tracey Baker. For over 180 years, her family has managed this land of over 900 acres called The Gleason Ranch. Today, Tracey and her daughter along with one ranch hand manage over 200 head of cattle at a time. The Gleason Ranch is among few 100% Grass Fed Grass Finished ranches in the state of Washington. She is the only rancher that I know of that raised her animals from breeding to harvest all on the same land- if traceability is important to you- then this is a product to consider. But do not let that be the only deciding factor, the quality of her product surpasses any beef that I have worked in over 25 years. Flavor is the key judgement- The Gleason Ranch continues to surpass all cattle raising standards. </p> 
           </div>
       </div> 
     </div>   
@@ -81,7 +90,6 @@
               <a href="https://www.linkedin.com/in/adam-stevenson-3a1b9b37/">Linkedin</a>
               <a href="https://github.com/adams1971?tab=repositories">GitHub</a>
           </ul>
-        </div>
       </footer>
     </div>
   </body>
